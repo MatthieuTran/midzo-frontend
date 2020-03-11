@@ -439,6 +439,11 @@ input[type=submit]:hover {
 	opacity: 0.8;
 }
 
+.loginForm-container .btn:hover {
+	background-color: #e45f8b;
+	transition: background-color 1s;
+}
+
 .loginForm-container .btn-cancel {
 	background-color: gray;
 	color: white;
