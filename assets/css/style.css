@@ -373,7 +373,7 @@ input[type=text],
 .loginForm-container input[type=password],
 select {
 	width: 80%;
-	padding: 10px 60px;
+	padding: 10px 10px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
