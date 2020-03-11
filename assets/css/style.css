@@ -324,18 +324,28 @@ html {
 }
 
 /* Manages background image of location entry form */
-.bg {
-	background-image: url("https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg");
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg");
 
-	height: 400px;
+	height: 80vh;
 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
 }
 
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
 /* Adds a darker overlay to background image of location entry form */
-#overlay {
+/* #overlay {
 	position: relative;
 	display: inline-block;
 	align-items: center;
@@ -343,7 +353,7 @@ html {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-}
+} */
 
 /* Style location form */
 #location-form {
@@ -359,6 +369,7 @@ html {
 
 /* Style inputs */
 input[type=text],
+.loginForm-container input[type=email],
 .loginForm-container input[type=password],
 select {
 	width: 80%;
@@ -402,6 +413,7 @@ input[type=submit] {
 }
 
 .loginForm-container input[type=text],
+.loginForm-container input[type=email],
 .loginForm-container input[type=password] {
 	width: 100%;
 	padding: 15px;
