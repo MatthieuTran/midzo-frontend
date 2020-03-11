@@ -235,7 +235,8 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-	background-color: #f26493;
+	background-color: #a33a5d;
+	transition: background-color 1s;
 	color: #fff;
 }
 
@@ -395,6 +396,11 @@ input[type=submit] {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #fc8fb3;
+	transition: background-color 1s;
 }
 
 .login-popup {
