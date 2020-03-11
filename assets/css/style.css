@@ -3,7 +3,7 @@
 	font-family: 'Open Sans';
 	--text-primary: #b6b6b6;
 	--text-secondary: #ececec;
-	--bg-primary: #23232e;
+	--bg-primary: #f26493;
 	--bg-secondary: #141418;
 	--transition-speed: 600ms;
 }
@@ -218,7 +218,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: #333;
+	background-color: #f26493;
 	overflow: hidden;
 }
 
@@ -235,13 +235,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-	background-color: #ddd;
-	color: black;
+	background-color: #f26493;
+	color: #fff;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-	background-color: #4caf50;
+	background-color: #f26493;
 	color: white;
 	float: left;
 }
@@ -252,7 +252,7 @@
 }
 
 .topnav .icon:hover {
-	background-color: #333;
+	background-color: #f26493;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -387,7 +387,7 @@ select {
 /* Style the submit button */
 input[type=submit] {
 	width: 80%;
-	background-color: #4caf50;
+	background-color: #f26493;
 	color: white;
 	padding: 14px 0px;
 	margin-left: 10%;
@@ -423,7 +423,7 @@ input[type=submit] {
 }
 
 .loginForm-container .btn {
-	background-color: #4caf50;
+	background-color: #f26493;
 	color: white;
 	padding: 16px 20px;
 	border: none;
